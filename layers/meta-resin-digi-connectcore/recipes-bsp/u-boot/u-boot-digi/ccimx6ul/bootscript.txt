@@ -1,0 +1,11 @@
+#
+# U-Boot bootscript for NAND images created by BalenaOS
+#
+
+ubi part resin-boot
+ubifsmount ubi0:resin-boot
+ubifsload ${loadaddr} zImage-initramfs-${platform}.bin
+ubifsload ${fdt_addr} imx6ul-${platform}.dtb
+run bootargs_nand_linux
+bootz ${loadaddr} - ${fdt_addr}
+
