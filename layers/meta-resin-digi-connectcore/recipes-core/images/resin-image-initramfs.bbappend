@@ -6,4 +6,5 @@ PACKAGE_INSTALL_remove_ccimx6ul = " \
 
 PACKAGE_INSTALL_append_ccimx6ul = "\
     mkfs-default-ubifs-parts \
+    initramfs-module-ubifs-prepare-parts \
 "
