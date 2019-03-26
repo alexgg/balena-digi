@@ -3,3 +3,7 @@ PACKAGE_INSTALL_remove_ccimx6ul = " \
     initramfs-module-fsck \
     initramfs-module-resindataexpander \
 "
+
+PACKAGE_INSTALL_append_ccimx6ul = "\
+    mkfs-default-ubifs-parts \
+"
