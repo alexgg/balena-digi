@@ -3,4 +3,4 @@ bitbake-cookerdaemon.log
 build/
 ccimx6ulsbcexpress.json
 ccimx6ulsbcpro.json
-layers/meta-resin-digi-connectcore/conf/samples/conf-notes.txt
+layers/meta-balena-digi/conf/samples/conf-notes.txt

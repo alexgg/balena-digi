@@ -24,7 +24,7 @@ meta-resin:
 meta-freescale-3rdparty:
 * Add resin boot images to ubifs boot image [REVIEW].
 
-meta-resin-digi-connectcore:
+meta-balena-digi:
 * Add skeleton structure following documentation and meta-resin-raspberrypi
 * Modify u-boot-digi for BalenaOS
 * Clean packagegroup-resin of uneeded ext4/msdos packages
