@@ -16,6 +16,6 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-freescale-3rdparty \
     ${TOPDIR}/../layers/meta-resin/meta-resin-common \
     ${TOPDIR}/../layers/meta-resin/meta-resin-sumo \
-    ${TOPDIR}/../layers/meta-resin-digi-connectcore \
+    ${TOPDIR}/../layers/meta-balena-digi \
     ${TOPDIR}/../layers/meta-rust \
     "
