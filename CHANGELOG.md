@@ -1,3 +1,13 @@
+2019-05-22
+
+Yocto 2.6 (thud). Changes were needed in meta-resin to add NAND devices
+support.
+
+meta-resin:
+* Create /etc/resin-supervisor directory so the corresponding bind rule succeeds
+* initrdscripts: Adapt to support non-ext4 filesytems for resin-state
+* image_types_resin: Generalize RESIN_HOSTAPP_IMG extension
+
 2019-03-20
 
 Yocto 2.5 (sumo). Changes were needed in poky, meta-freescale andi
