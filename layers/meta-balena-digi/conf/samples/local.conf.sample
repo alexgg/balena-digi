@@ -62,3 +62,4 @@ CONF_VERSION = "1"
 HOSTTOOLS += "docker iptables"
 
 ACCEPT_FSL_EULA = "1"
+BBMASK = "meta-freescale-3rdparty/recipes-kernel/linux/linux-fslc-lts-4.19.bbappend"
