@@ -34,7 +34,7 @@ module.exports =
 		machine: 'ccimx6ulsbcpro'
 		image: 'resin-image'
 		fstype: 'ubifs'
-		version: 'yocto-sumo'
+		version: 'yocto-thud'
 		deployArtifact: 'resin-image-ccimx6ulsbcexpress.boot.ubifs resin-image-ccimx6ulsbcexpress.ubifs'
 		compressed: true
 
