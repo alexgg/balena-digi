@@ -1,0 +1,14 @@
+barys.log
+bitbake-cookerdaemon.log
+build/
+ccimx6ulsbcexpress.json
+ccimx6ulsbcpro.json
+layers/meta-balena
+layers/meta-freescale
+layers/meta-freescale-3rdparty
+layers/meta-openembedded
+layers/meta-rust
+layers/poky
+balena-yocto-scripts/
+layers/meta-balena-digi/conf/samples/conf-notes.txt
+.repo/
